@@ -3,7 +3,7 @@
 cd RGBDPlaneDetection/include/MRF2.2
 make
 cd ../../..
-mkdir build
+mkdir -p build
 cd build
 cmake ../RGBDPlaneDetection
 make

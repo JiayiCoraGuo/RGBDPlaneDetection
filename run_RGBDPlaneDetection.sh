@@ -8,5 +8,5 @@ do
   echo $rgb
   depth=/home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/raw_depth_resize_640480/$(printf "%06d" $i).png
   echo $depth
-  ./build/RGBDPlaneDetection -o /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/image_resize_640480/$(printf "%06d" $i).jpg /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/raw_depth_resize_640480/$(printf "%06d" $i).png /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/plane/$(printf "%06d" $i)/
+  ./RGBDPlaneDetection -o /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/image_resize_640480/$(printf "%06d" $i).jpg /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/raw_depth_resize_640480/$(printf "%06d" $i).png /home/coraguo/RIPS25-AnalogDevices-ObjectDetection/src/3d_C_P/mmdetection3d/data/sunrgbd/sunrgbd_trainval/plane/$(printf "%06d" $i)/
 done
